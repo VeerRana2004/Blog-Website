@@ -1,7 +1,9 @@
-POST http://localhost:3000/signin 
+
+
+POST http://localhost:3000/search-blogs
 Content-Type: application/json
 
 {
-    "email": "veer@gmail.com",
-    "password": "Veer"
+    "tag":"travel"
 }
+
